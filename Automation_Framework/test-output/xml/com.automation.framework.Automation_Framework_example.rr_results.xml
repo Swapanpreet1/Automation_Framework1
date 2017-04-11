@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="25.435">
+  <properties />
+  
+  
+            <testcase name="emailSignIn" time="0.334" classname="com.automation.framework.Automation_Framework_example.rr" />
+                <testcase name="SignInClick" time="9.218" classname="com.automation.framework.Automation_Framework_example.rr" />
+                <testcase name="MainPage" time="15.883" classname="com.automation.framework.Automation_Framework_example.rr" />
+      
+</testsuite>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[### BROWSER SELECTING ANS LAUNCHING ###]]>
+    </line>
+    <line>
+      <![CDATA[*** Selecting Browser ****]]>
+    </line>
+    <line>
+      <![CDATA[****  RANDOMLY Select the browser from range 1 to 3  *** ]]>
+    </line>
+    <line>
+      <![CDATA[1)  CHROME]]>
+    </line>
+    <line>
+      <![CDATA[2)  FIREFOX]]>
+    </line>
+    <line>
+      <![CDATA[3)  SAFARI]]>
+    </line>
+    <line>
+      <![CDATA[Chrome]]>
+    </line>
+    <line>
+      <![CDATA[*** Setup Browser ****]]>
+    </line>
+    <line>
+      <![CDATA[*** Running choosen Browser ****]]>
+    </line>
+    <line>
+      <![CDATA[#### BROWSER SETUP CLASS ####]]>
+    </line>
+    <line>
+      <![CDATA[#### CHROMEDRIVER BROWSER SETUP ####]]>
+    </line>
+    <line>
+      <![CDATA[###  LAUNCHING MAINPAGE ###]]>
+    </line>
+    <line>
+      <![CDATA[  MAINPAGE APPDIRECT PAGE ]]>
+    </line>
+    <line>
+      <![CDATA[  MAINPAGE APPDIRECT PAGE ]]>
+    </line>
+    <line>
+      <![CDATA[###  LAUNCHING SIGNUP PAGE ###]]>
+    </line>
+    <line>
+      <![CDATA[###  LAUNCHING EMAILSIGNUP PAGE ###]]>
+    </line>
+    <line>
+      <![CDATA[**** Intiliaze SigninclickEmailSignup page ****]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="51039" started-at="2017-04-11T00:43:56Z" finished-at="2017-04-11T00:44:47Z">
+    <groups>
+      <group name="titletest">
+        <method signature="TestCases.MainPageTest()[pri:0, instance:com.automation.framework.Automation_Framework_example.TestCases@2b98378d]" name="MainPageTest" class="com.automation.framework.Automation_Framework_example.TestCases"/>
+        <method signature="TestCases.SignInClickPageTest()[pri:0, instance:com.automation.framework.Automation_Framework_example.TestCases@2b98378d]" name="SignInClickPageTest" class="com.automation.framework.Automation_Framework_example.TestCases"/>
+        <method signature="TestCases.emailSignInPageTest()[pri:0, instance:com.automation.framework.Automation_Framework_example.TestCases@2b98378d]" name="emailSignInPageTest" class="com.automation.framework.Automation_Framework_example.TestCases"/>
+      </group> <!-- titletest -->
+    </groups>
+    <test name="Default test" duration-ms="51039" started-at="2017-04-11T00:43:56Z" finished-at="2017-04-11T00:44:47Z">
+      <class name="com.automation.framework.Automation_Framework_example.TestCases">
+        <test-method status="PASS" signature="initliazebrowser()[pri:0, instance:com.automation.framework.Automation_Framework_example.TestCases@2b98378d]" name="initliazebrowser" is-config="true" duration-ms="3759" started-at="2017-04-11T06:13:56Z" finished-at="2017-04-11T06:14:00Z">
+          <reporter-output>
+            <line>
+              <![CDATA[### BROWSER SELECTING ANS LAUNCHING ###]]>
+            </line>
+            <line>
+              <![CDATA[*** Selecting Browser ****]]>
+            </line>
+            <line>
+              <![CDATA[****  RANDOMLY Select the browser from range 1 to 3  *** ]]>
+            </line>
+            <line>
+              <![CDATA[1)  CHROME]]>
+            </line>
+            <line>
+              <![CDATA[2)  FIREFOX]]>
+            </line>
+            <line>
+              <![CDATA[3)  SAFARI]]>
+            </line>
+            <line>
+              <![CDATA[Chrome]]>
+            </line>
+            <line>
+              <![CDATA[*** Setup Browser ****]]>
+            </line>
+            <line>
+              <![CDATA[*** Running choosen Browser ****]]>
+            </line>
+            <line>
+              <![CDATA[#### BROWSER SETUP CLASS ####]]>
+            </line>
+            <line>
+              <![CDATA[#### CHROMEDRIVER BROWSER SETUP ####]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- initliazebrowser -->
+        <test-method status="PASS" signature="MainPageTest()[pri:0, instance:com.automation.framework.Automation_Framework_example.TestCases@2b98378d]" name="MainPageTest" duration-ms="29196" started-at="2017-04-11T06:14:00Z" finished-at="2017-04-11T06:14:29Z">
+          <reporter-output>
+            <line>
+              <![CDATA[###  LAUNCHING MAINPAGE ###]]>
+            </line>
+            <line>
+              <![CDATA[  MAINPAGE APPDIRECT PAGE ]]>
+            </line>
+            <line>
+              <![CDATA[  MAINPAGE APPDIRECT PAGE ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- MainPageTest -->
+        <test-method status="PASS" signature="SignInClickPageTest()[pri:0, instance:com.automation.framework.Automation_Framework_example.TestCases@2b98378d]" name="SignInClickPageTest" duration-ms="17745" started-at="2017-04-11T06:14:29Z" finished-at="2017-04-11T06:14:47Z">
+          <reporter-output>
+            <line>
+              <![CDATA[###  LAUNCHING SIGNUP PAGE ###]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SignInClickPageTest -->
+        <test-method status="PASS" signature="emailSignInPageTest()[pri:0, instance:com.automation.framework.Automation_Framework_example.TestCases@2b98378d]" name="emailSignInPageTest" duration-ms="317" started-at="2017-04-11T06:14:47Z" finished-at="2017-04-11T06:14:47Z">
+          <reporter-output>
+            <line>
+              <![CDATA[###  LAUNCHING EMAILSIGNUP PAGE ###]]>
+            </line>
+            <line>
+              <![CDATA[**** Intiliaze SigninclickEmailSignup page ****]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- emailSignInPageTest -->
+        <test-method status="PASS" signature="destroyDriver()[pri:0, instance:com.automation.framework.Automation_Framework_example.TestCases@2b98378d]" name="destroyDriver" is-config="true" duration-ms="0" started-at="2017-04-11T06:14:47Z" finished-at="2017-04-11T06:14:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- destroyDriver -->
+      </class> <!-- com.automation.framework.Automation_Framework_example.TestCases -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
